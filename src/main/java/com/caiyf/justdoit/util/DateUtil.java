@@ -34,6 +34,7 @@ public class DateUtil {
 
     /**
      * format date to pattern string
+     *
      * @param date
      * @param pattern
      * @return
@@ -51,6 +52,7 @@ public class DateUtil {
 
     /**
      * parse pattern string to date
+     *
      * @param dateString
      * @param pattern
      * @return
@@ -68,6 +70,7 @@ public class DateUtil {
 
     /**
      * get date of start, eg: 2019-11-17 11:11:11 -> 2019-11-17 00:00:01
+     *
      * @param date
      * @return
      */
@@ -84,6 +87,7 @@ public class DateUtil {
 
     /**
      * get date of end, eg: 2019-11-17 11:11:11 -> 2019-11-17 23:59:59
+     *
      * @param date
      * @return
      */
@@ -100,6 +104,7 @@ public class DateUtil {
 
     /**
      * get millis of date
+     *
      * @param date
      * @return
      */
@@ -116,6 +121,7 @@ public class DateUtil {
 
     /**
      * millis to date string
+     *
      * @param millis
      * @param pattern
      * @return
@@ -133,6 +139,7 @@ public class DateUtil {
 
     /**
      * get current year, eg: 2019
+     *
      * @return
      */
     public static Integer getCurrentYear() {
@@ -142,6 +149,7 @@ public class DateUtil {
 
     /**
      * get current month, eg: 11
+     *
      * @return
      */
     public static Integer getCurrentMonth() {
@@ -151,6 +159,7 @@ public class DateUtil {
 
     /**
      * get current day of month, eg: 17
+     *
      * @return
      */
     public static Integer getCurrentDay() {
@@ -160,6 +169,7 @@ public class DateUtil {
 
     /**
      * get diff seconds between start date and end date
+     *
      * @param startDate
      * @param endDate
      * @return
@@ -173,6 +183,7 @@ public class DateUtil {
 
     /**
      *  get diff days between start date and end date
+     *
      * @param startDate
      * @param endDate
      * @return
@@ -184,6 +195,7 @@ public class DateUtil {
 
     /**
      * incr appoint days
+     *
      * @param sourceDate
      * @param days
      * @return
@@ -197,6 +209,7 @@ public class DateUtil {
 
     /**
      * incr appoint hours
+     *
      * @param sourceDate
      * @param hours
      * @return

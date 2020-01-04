@@ -7,7 +7,4 @@ package com.caiyf.justdoit.util;
  */
 public class JsonUtil {
 
-    private JsonUtil() {
-    }
-
 }

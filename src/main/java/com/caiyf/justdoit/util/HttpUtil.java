@@ -7,6 +7,4 @@ package com.caiyf.justdoit.util;
  */
 public class HttpUtil {
 
-
-
 }
