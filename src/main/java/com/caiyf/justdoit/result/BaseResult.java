@@ -3,9 +3,10 @@ package com.caiyf.justdoit.result;
 import lombok.Data;
 
 /**
+ * 通用返回结果
+ *
  * @author caiyf
  * @date 2019-11-16
- * @desc 通用返回结果
  */
 @Data
 public class BaseResult<T> {

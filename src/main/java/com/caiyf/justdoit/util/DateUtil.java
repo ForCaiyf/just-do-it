@@ -8,12 +8,12 @@ import org.slf4j.LoggerFactory;
 
 import java.util.Calendar;
 import java.util.Date;
-import java.util.Objects;
 
 /**
+ * date util
+ *
  * @author caiyf
  * @date 2019-11-17
- * @desc date util
  */
 public class DateUtil {
 
@@ -26,11 +26,6 @@ public class DateUtil {
     private static final Integer SEC_MILLIS_NUM = 1000;
     private static final Integer DAY_OF_SEC = 60 * 60 * 24;
     private static Logger log = LoggerFactory.getLogger(DateUtil.class);
-
-    /**
-     * private constructor
-     */
-    private DateUtil() {}
 
     /**
      * format date to pattern string
@@ -175,7 +170,7 @@ public class DateUtil {
      * @return
      */
     public static Long getDiffSecBetweenDate(Date startDate, Date endDate) {
-        if (Objects.isNull(startDate) || Objects.isNull(endDate)) {
+        if (ObjectUtil.isNull(startDate) || ObjectUtil.isNull(endDate)) {
             log.error("{} compile date fail, null date for start date: {}, end date: {}", ERROR_LOG_MSG, startDate, endDate);
         }
         return (startDate.getTime() - endDate.getTime()) / SEC_MILLIS_NUM;
