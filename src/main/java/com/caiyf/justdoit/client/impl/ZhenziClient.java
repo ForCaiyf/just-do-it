@@ -16,7 +16,7 @@ import java.util.Map;
  * @author caiyf
  * @date 2020-01-04
  */
-public class ZhenZiClient implements ShortMessageClient {
+public class ZhenziClient implements ShortMessageClient {
 
     private static Logger log = LoggerFactory.getLogger(DateUtil.class);
 
